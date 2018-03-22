@@ -1,0 +1,60 @@
+#main-container{
+  width:70%;
+  margin-top:5%;
+  text-align:center;
+}
+
+.temperature-number{
+  font-size:50px;
+}
+
+.weather-miniature{
+  width:90px;
+  margin-right:50px;
+}
+
+
+
+.location-container{
+  opacity:0.5;
+  text-align:left;
+}
+.location-name{
+  font-size:35px;
+}
+
+.location-time{
+  font-size:15px;
+}
+.location-weather{
+  font-size:20px;
+}
+
+
+
+.day-list-item:hover{
+  background-color:lightgray;
+}
+
+.secondary-weather-info{
+  margin-top:50px;
+}
+
+.secondary-weather-info-text{
+  opacity:0.7;
+}
+
+.selected-item{
+  background-color:#eaebed;
+}
+
+.day-list{
+  text-align:center;
+}
+
+.day-list li{
+  margin:15px;
+  cursor:pointer;
+  border:1px solid lightgray;
+  width:90px;
+}
